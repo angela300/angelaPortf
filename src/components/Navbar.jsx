@@ -26,7 +26,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {["home", "about", "project", "contact"].map((item) => (
+            {["home", "about", "projects", "contact"].map((item) => (
               <a
                 key={item}
                 href={`#${item}`}
